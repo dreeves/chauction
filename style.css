@@ -1,0 +1,94 @@
+table {
+  border-width: 1px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: gray;
+  border-collapse: separate;
+  font: 0.9em helvetica, sans-serif;
+}
+table th, 
+table td {
+  border-width: 1px;
+  padding: 4px 6px;
+  border-style: solid;
+  border-color: gray;
+}
+table th {
+  background-color: #3553e9;
+  color: white;
+}
+
+#results {
+  width: 700;  # was 600
+  padding: 4px;
+  min-height: 40px;
+}
+iframe {
+ width: 1000px;
+ height: 500px;
+}
+div#padtop {
+  display: none;
+}
+#spintest {
+  background: gray;
+}
+div.submit {
+  color: white;
+  padding: 4px 10px;
+  font: 12px arial,helvetica, sans-serif;
+  margin: 10px 0;
+  width: 80px;
+  text-align: center;
+background-color: #3553e9;
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.03, rgb(60,90,240)),
+    color-stop(0.52, rgb(50,64,138)),
+    color-stop(0.66, rgb(60,87,240))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(60,90,240) 3%,
+    rgb(50,64,138) 52%,
+    rgb(60,87,240) 66%
+)
+}
+div.submit img {
+  height: 22px;
+  width: 22px;
+}
+
+.orange {
+  background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+  background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: 14px/100% Arial, Helvetica, sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em
+cursor: pointer;
+}
+.orange {
+  background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+  background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+  font: 14px/100% Arial, Helvetica, sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+.orange:active {
+  color: #fcd3a5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+  background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
